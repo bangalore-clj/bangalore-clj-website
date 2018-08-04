@@ -2,14 +2,6 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/authors-output/Amarjeet/index.html
-</loc>
-<lastmod>
-2018-08-04
-</lastmod>
-</url>
-<url>
-<loc>
 http://bangalore-clj.github.io/blog/authors-output/Bangalore Clojure User Group/index.html
 </loc>
 <lastmod>
@@ -82,31 +74,7 @@ http://bangalore-clj.github.io/blog/tags-output/ClojureScript/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/tags-output/Blog/index.html
-</loc>
-<lastmod>
-2018-08-04
-</lastmod>
-</url>
-<url>
-<loc>
-http://bangalore-clj.github.io/blog/posts-output/2018-05-12-welcome/index.html
-</loc>
-<lastmod>
-2018-08-04
-</lastmod>
-</url>
-<url>
-<loc>
-http://bangalore-clj.github.io/blog/posts-output/2018-05-13-second-post/index.html
-</loc>
-<lastmod>
-2018-08-04
-</lastmod>
-</url>
-<url>
-<loc>
-http://bangalore-clj.github.io/blog/posts-output/2018-05-13-first-post/index.html
+http://bangalore-clj.github.io/blog/posts-output/2018-08-04-welcome/index.html
 </loc>
 <lastmod>
 2018-08-04
