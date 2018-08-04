@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://bangalore-clj.github.io/' rel='self' type='application/rss+xml'/>
+<title>
+Bangalore Clojure Group
+</title>
+<link>
+http://bangalore-clj.github.io/
+</link>
+<description>
+This platform aims at fostering collaboration among Clojure community members in Bangalore.
+</description>
+<lastBuildDate>
+Sat, 04 Aug 2018 17:56:47 +0530
+</lastBuildDate>
+<generator>
+clj-rss
+</generator>
+<item>
+<guid>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-13-first-post/
+</guid>
+<link>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-13-first-post/
+</link>
+<title>
+My first blog post
+</title>
+<description>
+&lt;p&gt;To be updated!&lt;/p&gt;
+</description>
+<author>
+Amarjeet
+</author>
+<pubDate>
+Sun, 13 May 2018 00:00:00 +0530
+</pubDate>
+</item>
+<item>
+<guid>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-13-second-post/
+</guid>
+<link>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-13-second-post/
+</link>
+<title>
+My second blog post
+</title>
+<description>
+&lt;p&gt;To be updated!&lt;/p&gt;
+</description>
+<author>
+Amarjeet
+</author>
+<pubDate>
+Sun, 13 May 2018 00:00:00 +0530
+</pubDate>
+</item>
+<item>
+<guid>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-12-welcome/
+</guid>
+<link>
+http://bangalore-clj.github.io/blog/posts-output/2018-05-12-welcome/
+</link>
+<title>
+Welcome to Bangalore Clojure Group
+</title>
+<description>
+&lt;h3 id=&quot;what&quot;&gt;What&lt;/h3&gt;&lt;p&gt;To be updated!&lt;/p&gt;&lt;h3 id=&quot;why&quot;&gt;Why&lt;/h3&gt;&lt;p&gt;To be updated!&lt;/p&gt;&lt;h3 id=&quot;more&quot;&gt;More&lt;/h3&gt;&lt;p&gt;To be updated!&lt;/p&gt;&lt;h3 id=&quot;more&quot;&gt;More&lt;/h3&gt;&lt;p&gt;To be updated!&lt;/p&gt;
+</description>
+<pubDate>
+Sat, 12 May 2018 00:00:00 +0530
+</pubDate>
+</item>
+</channel>
+</rss>
