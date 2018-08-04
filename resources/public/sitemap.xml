@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/authors-output/Bangalore Clojure User Group/index.html
+http://bangalore-clj.github.io/authors-output/Bangalore Clojure User Group/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -10,7 +10,7 @@ http://bangalore-clj.github.io/blog/authors-output/Bangalore Clojure User Group/
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/index.html
+http://bangalore-clj.github.io/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -18,7 +18,7 @@ http://bangalore-clj.github.io/blog/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/404.html
+http://bangalore-clj.github.io/404.html
 </loc>
 <lastmod>
 2018-08-04
@@ -26,7 +26,7 @@ http://bangalore-clj.github.io/blog/404.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/archives/index.html
+http://bangalore-clj.github.io/archives/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -34,7 +34,7 @@ http://bangalore-clj.github.io/blog/archives/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/tags/index.html
+http://bangalore-clj.github.io/tags/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -42,7 +42,7 @@ http://bangalore-clj.github.io/blog/tags/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/pages-output/about/index.html
+http://bangalore-clj.github.io/pages-output/about/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -50,7 +50,7 @@ http://bangalore-clj.github.io/blog/pages-output/about/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/pages-output/contribute/index.html
+http://bangalore-clj.github.io/pages-output/contribute/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -58,7 +58,7 @@ http://bangalore-clj.github.io/blog/pages-output/contribute/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/tags-output/Clojure/index.html
+http://bangalore-clj.github.io/tags-output/Clojure/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -66,7 +66,7 @@ http://bangalore-clj.github.io/blog/tags-output/Clojure/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/tags-output/ClojureScript/index.html
+http://bangalore-clj.github.io/tags-output/ClojureScript/index.html
 </loc>
 <lastmod>
 2018-08-04
@@ -74,7 +74,7 @@ http://bangalore-clj.github.io/blog/tags-output/ClojureScript/index.html
 </url>
 <url>
 <loc>
-http://bangalore-clj.github.io/blog/posts-output/2018-08-04-welcome/index.html
+http://bangalore-clj.github.io/posts-output/2018-08-04-welcome/index.html
 </loc>
 <lastmod>
 2018-08-04
