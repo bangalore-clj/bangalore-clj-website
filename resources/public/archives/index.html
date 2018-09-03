@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="/css/screen.css" rel="stylesheet" type="text/css" />
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+			  crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -79,9 +85,9 @@
         <div class="col-md-3">
             <div id="sidebar">
                 <h3>Upcoming Events</h3>
-                <ul id="links">
-                    <li><a href="https://www.meetup.com/Bangalore-Clojure-User-Group/">Bangalore Clojure Meetup</a></li>
-                </ul>
+                <div id="events">
+                  <i class="fas fa-spinner fa-spin"></i>
+                </div>
                 
                 <div id="recent">
                     <h3>Recent Articles</h3>
@@ -118,4 +124,22 @@
 
 
 </body>
+  <script type="">
+      var upcomingEvents = $.ajax({
+        url: 'https://api.meetup.com/Bangalore-Clojure-User-Group/events',
+        dataType: 'jsonp',
+        xhrFields: {
+          withCredentials: false}
+      }).done(function(response) {
+        var events = response.data;
+        var eventElements = "";
+        for(i = 0; i < events.length; i++) {
+          var eventElement = "<li><a href=" + events[i].link + ">"+ events[i].name + "</a></li>";
+          eventElements += eventElement;
+        }
+        eventElementsUL = "<ul id='links'>" + eventElements + "</ul>";
+        var upcomingEventsList = document.getElementById("events");
+        upcomingEventsList.innerHTML = eventElementsUL;
+      });
+  </script>
 </html>
