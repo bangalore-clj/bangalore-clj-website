@@ -67,15 +67,16 @@
         <h2>Contribute</h2>
     </div>
     
-    <h2 id="general">General</h2><p>Please send a pull-request for any contribution. Below are different ways to contribute. Before sending PRs, please test the changes well: <code>lein ring server</code></p><p>This website has been built using <a href='http://cryogenweb.org/index.html'>Cryogen</a>. You can visit the detailed documentation at <a href='http://cryogenweb.org/docs/home.html'>Cryogen documentation</a> page in case you have any doubts. Or, you can email us on <code>bangaloreclojure@gmail.com</code></p><h2 id="writing&#95;a&#95;post&#95;(article)">Writing a post (article)</h2><p>To add a post, please put your content inside a markdown (.md) file. Name that file as <code>&lt;YYYY-MM-DD&gt;-file-name.md</code> Then, put this file in the <code>resources/templates/md/posts</code> directory.</p><p>You can add a seetings map on top of the MD file as below:</p><pre><code>{:title &quot;This is a demo post&quot;
+    <h2 id="general">General</h2><p><a href='https://github.com/bangalore-clj/bangalore-clj-website'>The Git repo of this website is hosted here</a>.</p><p>Please send a pull-request for any contribution. Below are different ways to contribute. Before sending PRs, please test the changes by running the application on your local machine:</p><pre><code>lein ring server
+</code></pre><p>This website has been built using <a href='http://cryogenweb.org/index.html'>Cryogen</a>. You can visit the detailed documentation at <a href='http://cryogenweb.org/docs/home.html'>Cryogen documentation</a> page in case you have any doubts. Or, you can email us on <code>bangaloreclojure@gmail.com</code></p><h2 id="writing&#95;a&#95;post&#95;(article)">Writing a post (article)</h2><p>To add a post, please put your content inside a markdown (.md) file. Name that file as <code>&lt;YYYY-MM-DD&gt;-file-name.md</code> Then, put this file in the <code>resources/templates/md/posts</code> directory.</p><p>You can add a settings map on top of the markdown (.md) file as below:</p><pre><code>{:title &quot;This is a demo post&quot;
  :layout :post
  :tags  &#91;&quot;Clojure&quot; &quot;ClojureScript&quot;&#93;
- :toc true}
-</code></pre><h2 id="creating&#95;a&#95;page&#95;(ex:&#95;about,&#95;contribute,&#95;etc.)">Creating a page (ex: About, Contribute, etc.)</h2><p>To add a page, please put your content inside a markdown (.md) file. Name that file as <code>file-name.md</code> Then, put this file in the <code>resources/templates/md/pages</code> directory.</p><p>You can add a seetings map on top of the MD file as below:</p><pre><code>{:title &quot;Contribute&quot;
+ :author &quot;your-name&quot;}
+</code></pre><h2 id="creating&#95;a&#95;page&#95;(ex:&#95;about,&#95;contribute,&#95;etc.)">Creating a page (ex: About, Contribute, etc.)</h2><p>To add a page, please put your content inside a markdown (.md) file. Name that file as <code>file-name.md</code> Then, put this file in the <code>resources/templates/md/pages</code> directory.</p><p>You can add a settings map on top of the MD file as below:</p><pre><code>{:title &quot;Contribute&quot;
  :layout :page
  :page-index 0
  :navbar? true}
-</code></pre><h2 id="making&#95;changes&#95;to&#95;the&#95;website&#95;(structure,&#95;looks,&#95;etc)">Making changes to the website (structure, looks, etc)</h2><p>You can modify the base config at <code>resources/templates/config.edn</code>.</p><p>CSS and Layouts can be modified from <code>resources/templates/themes</code>.</p>
+</code></pre><h2 id="making&#95;changes&#95;to&#95;the&#95;website&#95;(structure,&#95;looks,&#95;etc)">Making changes to the website (structure, looks, etc)</h2><ol><li>Base config can be modified at <code>resources/templates/config.edn</code>.</li><li>CSS and Layouts for the currently used <code>blue</code> theme can be modified at <code>resources/templates/themes/blue</code>.</li></ol>
 
     <div id="prev-next">
         
@@ -99,6 +100,8 @@
                 <div id="recent">
                     <h3>Recent Articles</h3>
                     <ul>
+                        
+                        <li><a href="/posts-output/2018-09-10-sept-meetup/">The hack-session meetup on Sept 1, 2018</a></li>
                         
                         <li><a href="/posts-output/2018-08-04-welcome/">Welcome to Bangalore Clojure Group</a></li>
                         

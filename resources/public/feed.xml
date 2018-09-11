@@ -12,11 +12,31 @@ http://bangalore-clj.github.io/
 This platform aims at fostering collaboration among Clojure community members in Bangalore.
 </description>
 <lastBuildDate>
-Sat, 01 Sep 2018 19:09:57 +0530
+Mon, 10 Sep 2018 13:15:15 +0530
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
+<item>
+<guid>
+http://bangalore-clj.github.io/posts-output/2018-09-10-sept-meetup/
+</guid>
+<link>
+http://bangalore-clj.github.io/posts-output/2018-09-10-sept-meetup/
+</link>
+<title>
+The hack-session meetup on Sept 1, 2018
+</title>
+<description>
+&lt;p&gt;We hosted the 2nd episode of the hack-session during this &lt;a href='https://www.meetup.com/Bangalore-Clojure-User-Group/events/253965766/'&gt;Sept meetup&lt;/a&gt; at Nilenso office. 1st episode was during the &lt;a href='https://www.meetup.com/Bangalore-Clojure-User-Group/events/252993263/'&gt;Aug meetup&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Not only we had larger participation, Clojurians could also push their PRs to open-sourced projects. Some are in production already 🙂.&lt;/p&gt;&lt;p&gt;Here is what Clojurians built during the session:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href='https://inclojure.org/'&gt;In/Clojure Website&lt;/a&gt; - Convert HTML to Hiccup (ClojureScript) - by &lt;a href='https://github.com/ssrihari'&gt;Srihari Sriraman&lt;/a&gt; and &lt;a href='https://github.com/Robert-Christopher'&gt;Robert Christopher&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://bangalore-clj.github.io/'&gt;Bangalore Clojure Website&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://github.com/bangalore-clj/bangalore-clj-website/pull/4'&gt;Auto update Meetups on the website&lt;/a&gt; - by &lt;a href='https://github.com/amarjeet000'&gt;Amarjeet&lt;/a&gt; and &lt;a href='https://github.com/govindkrjoshi'&gt;Govind Krishna&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Make the website go live - by &lt;a href='https://github.com/Robert-Christopher'&gt;Robert Christopher&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://github.com/simpledotorg/simple-experiments'&gt;Simple&lt;/a&gt; - &lt;a href='https://github.com/simpledotorg/simple-experiments/commit/bf8c12c603648e038a71b984edcfefa98563571e?diff=unified'&gt;Fuzzy Search&lt;/a&gt; - by &lt;a href='https://github.com/ssrihari'&gt;Srihari Sriraman&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://github.com/nilenso/time-tracker'&gt;Time-tracker&lt;/a&gt; - by &lt;a href='https://github.com/abhinandankothari'&gt;Abhinandan Kothari&lt;/a&gt; and &lt;a href='https://github.com/shafeeq'&gt;Shafeeq&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://github.com/nilenso/time-tracker/pull/197'&gt;Makes Gstin and PAN optional&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://github.com/nilenso/time-tracker/pull/198'&gt;Sends email when user is invited&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-1.png&quot; alt=&quot;Sept Meetup Hack Session - 1&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-2.png&quot; alt=&quot;Sept Meetup Hack Session - 2&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-3.png&quot; alt=&quot;Sept Meetup Hack Session - 3&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-4.png&quot; alt=&quot;Sept Meetup Hack Session - 4&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-5.png&quot; alt=&quot;Sept Meetup Hack Session - 5&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/sept-meetup-6.png&quot; alt=&quot;Sept Meetup Hack Session - 6&quot; /&gt;&lt;/p&gt;
+</description>
+<author>
+Amarjeet
+</author>
+<pubDate>
+Mon, 10 Sep 2018 00:00:00 +0530
+</pubDate>
+</item>
 <item>
 <guid>
 http://bangalore-clj.github.io/posts-output/2018-08-04-welcome/
@@ -30,6 +50,9 @@ Welcome to Bangalore Clojure Group
 <description>
 &lt;p&gt;Today, we are launching this website to enable greater level of engagement with the local Clojure community.&lt;/p&gt;&lt;p&gt;This launch was a part of the &lt;a href='https://www.meetup.com/Bangalore-Clojure-User-Group/events/252993263/'&gt;Hacking Session&lt;/a&gt; in today's meetup - in fact, I am writing this post in the ongoing meetup session 🙂&lt;/p&gt;&lt;p&gt;We plan to keep updating meetup details, along with talks' slides and videos. Stay tuned for updates.&lt;/p&gt;
 </description>
+<author>
+Amarjeet
+</author>
 <pubDate>
 Sat, 04 Aug 2018 00:00:00 +0530
 </pubDate>
